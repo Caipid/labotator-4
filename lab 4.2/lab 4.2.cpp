@@ -18,7 +18,7 @@ int main() {
 		}
 	}
 	else {
-		cout << "Íåâåðíîå n";
+		cout << "Неверное n";
 	}
 	cout << summa;
 }
