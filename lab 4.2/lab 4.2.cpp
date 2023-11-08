@@ -16,9 +16,9 @@ int main() {
 			summa += 1.0 / fact;
 			number_porad += 1;
 		}
+		cout << summa;
 	}
 	else {
 		cout << "Неверное n";
 	}
-	cout << summa;
 }
