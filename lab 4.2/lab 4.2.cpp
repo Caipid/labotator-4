@@ -4,7 +4,7 @@
 using namespace std;
 int main() {
 	setlocale(LC_ALL, "ru");
-	cout << "Ââåäèòå n:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ n:";
 	int n;
 	cin >> n;
 	int number_porad = 1;
@@ -16,9 +16,9 @@ int main() {
 			summa += 1.0 / fact;
 			number_porad += 1;
 		}
+		cout << summa;
 	}
 	else {
-		cout << "Íåâåðíîå n";
+		cout << "ÐÐµÐ²ÐµÑ€Ð½Ð¾Ðµ n";
 	}
-	cout << summa;
 }
